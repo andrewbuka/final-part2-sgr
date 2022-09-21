@@ -1,0 +1,188 @@
+.offers {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.offers-container {
+  width: 100%;
+  max-width: 1200px;  
+}
+
+.offers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+
+.offers-title {
+  font-family: 'Pribambas';
+  letter-spacing: 2px;
+  color: rgb(77, 77, 77);
+  font-size: 40px;
+  font-weight: 600; 
+}
+
+
+.offer-block {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 26px -14px;
+  transition: opacity transform;
+  transition-duration: 500ms;  
+}
+
+.offer-block:hover {
+  transform: scale(1.03, 1.03);
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.recording {
+  background-image: url(../images/offers/recording.png);
+  background-size: cover;
+}
+
+.cover {
+  background-image: url(../images/offers/cover.png);
+  background-size: cover;
+}
+
+.mixing {
+  background-image: url(../images/offers/mixing.png);
+  background-size: cover;
+}
+
+.speakers {
+  background-image: url(../images/offers/speakers.png);
+  background-size: cover;
+}
+
+.speakers-console {
+  background-image: url(../images/offers/speakers-console.png);
+  background-size: cover;
+}
+
+.speakers-console-dj {
+  background-image: url(../images/offers/speakers-console-dj.png);
+  background-size: cover;
+}
+
+.container-slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.slider {
+  margin: 0px 0 0px;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 40px;
+  position: relative;
+  left: 0px;
+  transition: all ease 1500ms;
+}
+
+.offer-block {
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.offers-title-container {
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  transition: opacity;
+  transition-duration: 500ms;
+}
+
+
+.arrows-block {
+  display: flex;
+  justify-content: space-around;
+  max-width: 300px;
+  margin: 25px auto 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows-block:hover .offers-title-container {
+  opacity: 0.6;
+}
+
+.slider-blocks {
+  width: 350px;
+  flex-shrink: 0;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  cursor: pointer;
+  fill: #a78847;
+}
+
+.hidden-block {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(167, 136, 71, 0.5);
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pribambas';
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  color: #110d05;
+  font-size: 35px;
+  font-weight: 700;
+  display: none;
+  transition: display;
+  transition-duration: 1000ms;
+}
+
+.offer-block:hover .hidden-block{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pribambas';
+  line-height: 25px;
+  letter-spacing: -2px;
+  color: #110d05;
+  font-size: 35px;
+  font-weight: 900;      
+}
+
+@media screen and (max-width: 480px) {
+  .offers-title {
+    font-size: 34px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    width: 42px;
+    height: 42px;
+  }
+
+  .arrows-block {    
+    max-width: 250px;
+  }
+}
+

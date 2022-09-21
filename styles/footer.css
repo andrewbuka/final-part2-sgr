@@ -1,0 +1,134 @@
+.main {
+  margin-bottom: 50px;
+}
+
+.footer {  
+  border: 1px solid #0c0b0b;
+  background-image: url('../images/footer/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+.footer-container {
+  margin-top: 20px;
+  padding-bottom: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
+.link-footer {
+  margin-right: 10px;
+}
+
+.contacts-footer-container {
+  margin-bottom: 5px;
+}
+
+.footer-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display:flex;
+  justify-content: space-around;
+  row-gap: 10px;
+}
+
+.logo-name-container-footer {
+  display: flex;
+  align-items: center; 
+}
+
+.requisites-container {
+  margin-left: 10px;
+}
+
+.logo-requisites-container-footer {
+  width: 400px;
+}
+
+.contacts-footer-and-icons-container {
+  width: 300px;
+}
+
+.sections-container {
+  width: 300px;
+}
+
+.nav-list-footer {
+  list-style: none;
+}
+
+.main-footer-link {
+  padding-bottom: 2px;
+  border-bottom: 3px solid #a78847;
+  margin-bottom: 5px;
+}
+
+.requisites-wrapeer {
+  font-family: 'Pribambas';
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  color: #F1E7D5;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.sections-title {
+  font-family: 'Pribambas';
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #F1E7D5;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contacts-footer-container {
+  font-family: 'Pribambas';
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #F1E7D5;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sections-title {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.contacns-title-footer {
+  margin-bottom: 5px;
+}
+
+.nav-list-item-footer {
+  text-align: center;
+}
+
+.requisites-title {
+  margin-bottom: 5px;
+}
+
+.phone-num-footer {
+  color: #a78847;
+}
+
+.email-footer {
+  color: #a78847;
+}
+
+.phone-num-footer:hover {
+  color: #806324;
+}
+
+.email-footer:hover {
+  color: #806324;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-wrapper {      
+    flex-wrap: wrap;     
+  }
+}
+
+

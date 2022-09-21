@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Pribambas';
+  src: url('../fonts/Pribambas-Regular.ttf');
+}
+
+.list-hidden {
+ list-style: none;
+}
+
+.instruments {
+  width: 100%;
+  display:flex;
+  justify-content: center; 
+  background-image: url(../images/instruments/bg-blur.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;  
+  color: #F1E7D5;
+}
+
+.instruments-container-flex {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.instruments-container {
+  width: 100%;
+}
+
+.instrument-flex-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.instruments-block {
+  width: 200px;
+  height: 150px;
+  position: relative;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #faf9f0;
+  box-shadow: 4px -2px 19px -17px;
+  transition: opacity;
+  transition-duration: 1000ms;
+  margin-bottom: 50px;    
+}
+
+.instruments-block:hover .paragraph-visible {
+  opacity: 0;  
+}
+
+.instruments-block:hover .hidden-instruments-list-block {
+opacity: 1;
+}
+
+.hidden-instruments-list-block {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #4D4D4D;
+  transition: opacity;
+  transition-duration: 1000ms;
+}
+
+.list-hidden-item {
+  margin-bottom: 10px;
+  font-family: 'Pribambas';
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.paragraph-visible {
+  font-family: 'Pribambas';
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  text-align: center;    
+  font-size: 20px;
+  font-weight: 700;   
+  color: #4D4D4D;
+  transition: opacity;
+  transition-duration: 500ms;
+}
+
+.instruments-title {
+  font-family: 'Pribambas';
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0 20px;
+  color: #fafafc;
+}
+
+
+

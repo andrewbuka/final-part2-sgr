@@ -1,0 +1,153 @@
+
+
+.contacts-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 30px;
+}
+
+.contacts-info {
+  box-shadow: 5px 6px 13px -4px black;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-block {
+  font-family: 'Pribambas';
+  margin-bottom: 50px;
+  color: #4D4D4D;
+  font-size: 20px; 
+  line-height: 30px;      
+}
+
+.contacts-title {
+  font-family: 'Pribambas';
+  margin-bottom: 10px;
+  color: #4D4D4D;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.phone-num-container-contacts {
+  margin-bottom: 0;
+}
+
+.adress-container-contacts {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.mail-container-contacts {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.timetable-container-contacts {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  position: relative;
+
+}
+
+.phone-num-container-contacts {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.phone-num-contacts {
+  color: #4D4D4D;
+}
+
+.phone-num-contacts:hover {
+  color: #a78847;
+}
+
+.email-contacts {
+  color:#4D4D4D;
+}
+
+.email-contacts:hover {
+  color: #a78847;
+}
+
+.chevron-container {
+  display: flex;
+}
+
+.works-hours-list {
+  list-style: none;
+}
+
+.works-hours-list-flex-wrapper {
+  display: flex;
+  justify-content: center;  
+  align-items: end;
+}
+
+.chevron-up {
+  display: none;
+}
+
+.chevron-down:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  margin-left: 3px;  
+}
+
+.chevron-up:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  margin-left: 3px;
+}
+
+.work-hours {
+  border-bottom: 3px solid #4D4D4D;
+}
+
+.work-hours-container{
+  display: none;
+}
+
+.works-hours-list-item {
+  font-family: 'Pribambas';
+  color: #4D4D4D;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 1.7px;
+  text-align: justify;
+}
+
+
+@media screen and (max-width: 767px) {
+  .contacts-wrapper {   
+    grid-template-columns: 1fr ;
+    row-gap: 10px;     
+  }
+
+  .contacts-info {
+    margin-right: 0;
+    border-radius: 0;
+  }  
+}
+
+
+
+
